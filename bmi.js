@@ -5,6 +5,9 @@ class BMI {
     }
     calculateBMI() {
         let bmi = this.weight/(this.height*2);
+        console.log(bmi);
     }
-
 }
+
+b1 = new BMI(1.83, 70);
+b1.calculateBMI();
